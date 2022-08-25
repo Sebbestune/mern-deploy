@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "mern-deploy-production.up.railway.app"
+  origin: "https://mern-deploy-production.up.railway.app"
 };
 
 app.use(cors(corsOptions));
