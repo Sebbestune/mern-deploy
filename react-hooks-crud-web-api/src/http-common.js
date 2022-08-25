@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "https://bezkoder-crud.herokuapp.com/api",
+  baseURL: "mern-deploy-backend-production.up.railway.app",
   headers: {
     "Content-type": "application/json"
   }
